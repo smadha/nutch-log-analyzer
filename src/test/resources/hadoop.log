@@ -1,0 +1,426 @@
+2016-03-18 03:27:40,539 INFO  crawl.Injector - Injector: starting at 2016-03-18 03:27:40
+2016-03-18 03:27:40,540 INFO  crawl.Injector - Injector: crawlDb: /Users/madhav/Documents/workspace/nutch/runtime/local/crawl/crawldb
+2016-03-18 03:27:40,540 INFO  crawl.Injector - Injector: urlDir: urls
+2016-03-18 03:27:40,541 INFO  crawl.Injector - Injector: Converting injected urls to crawl db entries.
+2016-03-18 03:27:40,743 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-03-18 03:27:42,034 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1373565621/.staging/job_local1373565621_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:42,042 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1373565621/.staging/job_local1373565621_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:42,189 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1373565621_0001/job_local1373565621_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:42,193 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1373565621_0001/job_local1373565621_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:42,760 INFO  cosine.DocumentVector - Populating stopwords from stopwords.txt
+2016-03-18 03:27:42,881 INFO  cosine.CosineSimilarityModel - Creating DocVector from path - goldstandard.txt
+2016-03-18 03:27:42,893 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-03-18 03:27:43,103 INFO  crawl.Injector - Injector: overwrite: true
+2016-03-18 03:27:43,104 INFO  crawl.Injector - Injector: update: false
+2016-03-18 03:27:43,252 INFO  crawl.Injector - Injector: Total number of urls rejected by filters: 0
+2016-03-18 03:27:43,252 INFO  crawl.Injector - Injector: Total number of urls after normalization: 1
+2016-03-18 03:27:43,257 INFO  crawl.Injector - Injector: Total new urls injected: 1
+2016-03-18 03:27:43,258 INFO  crawl.Injector - Injector: finished at 2016-03-18 03:27:43, elapsed: 00:00:02
+2016-03-18 03:27:44,515 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-03-18 03:27:44,707 INFO  crawl.Generator - Generator: starting at 2016-03-18 03:27:44
+2016-03-18 03:27:44,707 INFO  crawl.Generator - Generator: Selecting best-scoring urls due for fetch.
+2016-03-18 03:27:44,707 INFO  crawl.Generator - Generator: filtering: false
+2016-03-18 03:27:44,707 INFO  crawl.Generator - Generator: normalizing: true
+2016-03-18 03:27:44,707 INFO  crawl.Generator - Generator: topN: 50000
+2016-03-18 03:27:45,232 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav722086754/.staging/job_local722086754_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:45,237 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav722086754/.staging/job_local722086754_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:45,367 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local722086754_0001/job_local722086754_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:45,370 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local722086754_0001/job_local722086754_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:45,815 INFO  cosine.DocumentVector - Populating stopwords from stopwords.txt
+2016-03-18 03:27:45,962 INFO  cosine.CosineSimilarityModel - Creating DocVector from path - goldstandard.txt
+2016-03-18 03:27:45,963 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.AdaptiveFetchSchedule
+2016-03-18 03:27:45,964 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-03-18 03:27:45,964 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-03-18 03:27:45,974 INFO  regex.RegexURLNormalizer - can't find rules for scope 'partition', using default
+2016-03-18 03:27:46,134 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.AdaptiveFetchSchedule
+2016-03-18 03:27:46,134 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-03-18 03:27:46,134 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-03-18 03:27:46,153 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.AdaptiveFetchSchedule
+2016-03-18 03:27:46,153 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-03-18 03:27:46,153 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-03-18 03:27:46,155 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-03-18 03:27:46,425 INFO  crawl.Generator - Generator: Partitioning selected urls for politeness.
+2016-03-18 03:27:47,431 INFO  crawl.Generator - Generator: segment: /Users/madhav/Documents/workspace/nutch/runtime/local/crawl/segments/20160318032747
+2016-03-18 03:27:47,563 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1953727824/.staging/job_local1953727824_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:47,566 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1953727824/.staging/job_local1953727824_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:47,636 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1953727824_0002/job_local1953727824_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:47,637 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1953727824_0002/job_local1953727824_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:48,783 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1901424673/.staging/job_local1901424673_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:48,785 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1901424673/.staging/job_local1901424673_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:48,848 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1901424673_0003/job_local1901424673_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:48,849 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1901424673_0003/job_local1901424673_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:49,876 INFO  crawl.Generator - Generator: finished at 2016-03-18 03:27:49, elapsed: 00:00:05
+2016-03-18 03:27:51,074 INFO  fetcher.Fetcher - Fetcher: starting at 2016-03-18 03:27:51
+2016-03-18 03:27:51,075 INFO  fetcher.Fetcher - Fetcher: segment: /Users/madhav/Documents/workspace/nutch/runtime/local/crawl/segments/20160318032747
+2016-03-18 03:27:51,075 INFO  fetcher.Fetcher - Fetcher Timelimit set for : 1458307671075
+2016-03-18 03:27:51,337 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-03-18 03:27:51,919 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1735599029/.staging/job_local1735599029_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:51,923 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1735599029/.staging/job_local1735599029_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:52,054 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1735599029_0001/job_local1735599029_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:52,058 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1735599029_0001/job_local1735599029_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:52,292 INFO  fetcher.FetchItemQueues - Using queue mode : byHost
+2016-03-18 03:27:52,292 INFO  fetcher.Fetcher - Fetcher: threads: 50
+2016-03-18 03:27:52,292 INFO  fetcher.Fetcher - Fetcher: time-out divisor: 2
+2016-03-18 03:27:52,300 INFO  fetcher.QueueFeeder - QueueFeeder finished: total 1 records + hit by time limit :0
+2016-03-18 03:27:52,504 INFO  cosine.DocumentVector - Populating stopwords from stopwords.txt
+2016-03-18 03:27:52,653 INFO  cosine.CosineSimilarityModel - Creating DocVector from path - goldstandard.txt
+2016-03-18 03:27:52,674 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,674 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,675 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,675 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,676 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,676 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,677 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,678 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,678 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,679 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,680 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,680 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,681 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,682 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,683 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,683 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,684 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,684 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,685 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,685 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,686 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,686 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,687 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,687 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,688 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,688 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,689 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,689 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,689 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,690 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,690 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,691 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,691 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,692 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,692 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,692 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,693 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,693 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,694 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,695 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,695 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,696 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,696 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,697 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,697 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,698 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,698 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,699 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,699 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,699 INFO  fetcher.FetcherThread - Using queue mode : byHost
+2016-03-18 03:27:52,700 INFO  fetcher.Fetcher - Fetcher: throughput threshold: 5
+2016-03-18 03:27:52,700 INFO  fetcher.Fetcher - Fetcher: throughput threshold retries: 5
+2016-03-18 03:27:52,700 INFO  fetcher.Fetcher - fetcher.maxNum.threads can't be < than 50 : using 50 instead
+2016-03-18 03:27:53,675 INFO  fetcher.FetcherThread - fetching http://www.jasonsguns.com/ (queue crawl delay=5000ms)
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=49
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=46
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=43
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,686 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,686 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=41
+2016-03-18 03:27:53,686 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=42
+2016-03-18 03:27:53,686 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,687 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=40
+2016-03-18 03:27:53,687 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,687 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=39
+2016-03-18 03:27:53,687 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,687 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=38
+2016-03-18 03:27:53,687 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,687 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=37
+2016-03-18 03:27:53,688 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,688 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=36
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=47
+2016-03-18 03:27:53,688 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,688 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,688 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=48
+2016-03-18 03:27:53,688 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,688 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=32
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,689 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=31
+2016-03-18 03:27:53,688 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=34
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=45
+2016-03-18 03:27:53,688 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=35
+2016-03-18 03:27:53,685 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=44
+2016-03-18 03:27:53,688 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=33
+2016-03-18 03:27:53,692 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,692 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,692 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=29
+2016-03-18 03:27:53,692 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,692 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=28
+2016-03-18 03:27:53,692 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,693 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,692 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,692 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=30
+2016-03-18 03:27:53,692 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,693 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=27
+2016-03-18 03:27:53,693 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=26
+2016-03-18 03:27:53,693 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,693 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=23
+2016-03-18 03:27:53,692 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,693 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,694 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=22
+2016-03-18 03:27:53,694 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=21
+2016-03-18 03:27:53,693 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=24
+2016-03-18 03:27:53,693 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=25
+2016-03-18 03:27:53,696 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,696 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,696 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=19
+2016-03-18 03:27:53,696 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,696 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=18
+2016-03-18 03:27:53,696 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=20
+2016-03-18 03:27:53,696 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,697 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=17
+2016-03-18 03:27:53,698 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,698 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,698 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=15
+2016-03-18 03:27:53,698 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,698 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=14
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=13
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=12
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=11
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=10
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=9
+2016-03-18 03:27:53,698 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=8
+2016-03-18 03:27:53,698 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=16
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,699 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,700 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=7
+2016-03-18 03:27:53,700 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=6
+2016-03-18 03:27:53,703 INFO  fetcher.Fetcher - -activeThreads=6, spinWaiting=5, fetchQueues.totalSize=0, fetchQueues.getQueueCount=1
+2016-03-18 03:27:53,704 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,704 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,704 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=4
+2016-03-18 03:27:53,704 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,704 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=3
+2016-03-18 03:27:53,704 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,704 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=2
+2016-03-18 03:27:53,704 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=5
+2016-03-18 03:27:53,710 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:53,710 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=1
+2016-03-18 03:27:53,741 INFO  protocol.RobotRulesParser - Whitelisted hosts: [www.gunbroker.com, www.armslist.com, www.freegunclassifieds.com, www.shooterswap.com, www.buyusedguns.net, www.gunauction.com, www.msguntrader.com, www.shooting.org, www.sanjoseguntrader.com, www.slickguns.com, www.accurateshooter.com, www.tennesseegunexchange.com, www.montanagunsforsale.com, www.cabelas.com, www.dallasguns.com, www.elpasoguntrader.com, www.cheaperthandirt.com, www.compraventadearmas.com, www.floridagunclassifieds.com, www.davidsonsinc.com, www.impactguns.com, www.nationalguntrader.com, www.iguntrade.com]
+2016-03-18 03:27:53,742 INFO  httpclient.Http - http.proxy.host = null
+2016-03-18 03:27:53,742 INFO  httpclient.Http - http.proxy.port = 8080
+2016-03-18 03:27:53,742 INFO  httpclient.Http - http.proxy.exception.list = false
+2016-03-18 03:27:53,742 INFO  httpclient.Http - http.timeout = 60000
+2016-03-18 03:27:53,742 INFO  httpclient.Http - http.content.limit = -1
+2016-03-18 03:27:53,742 INFO  httpclient.Http - http.agent = Mozilla/5.0/1.0
+2016-03-18 03:27:53,742 INFO  httpclient.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2016-03-18 03:27:53,742 INFO  httpclient.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-03-18 03:27:54,632 INFO  fetcher.FetcherThread - Thread FetcherThread has no more work available
+2016-03-18 03:27:54,632 INFO  fetcher.FetcherThread - -finishing thread FetcherThread, activeThreads=0
+2016-03-18 03:27:54,704 INFO  fetcher.Fetcher - -activeThreads=0, spinWaiting=0, fetchQueues.totalSize=0, fetchQueues.getQueueCount=0
+2016-03-18 03:27:54,705 INFO  fetcher.Fetcher - -activeThreads=0
+2016-03-18 03:27:55,115 INFO  fetcher.Fetcher - Fetcher: finished at 2016-03-18 03:27:55, elapsed: 00:00:04
+2016-03-18 03:27:56,537 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-03-18 03:27:56,704 INFO  parse.ParseSegment - ParseSegment: starting at 2016-03-18 03:27:56
+2016-03-18 03:27:56,704 INFO  parse.ParseSegment - ParseSegment: segment: /Users/madhav/Documents/workspace/nutch/runtime/local/crawl/segments/20160318032747
+2016-03-18 03:27:57,341 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav26771517/.staging/job_local26771517_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:57,347 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav26771517/.staging/job_local26771517_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:57,506 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local26771517_0001/job_local26771517_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:27:57,510 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local26771517_0001/job_local26771517_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:27:57,947 INFO  cosine.DocumentVector - Populating stopwords from stopwords.txt
+2016-03-18 03:27:58,120 INFO  cosine.CosineSimilarityModel - Creating DocVector from path - goldstandard.txt
+2016-03-18 03:27:58,349 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-03-18 03:27:58,364 INFO  cosine.CosineSimilarityModel - Calculating similarity between gold-standard and http://www.jasonsguns.com/
+2016-03-18 03:27:58,364 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/ to 0.055722922
+2016-03-18 03:27:58,364 INFO  cosine.CosineSimilarityModel - Score break down TextSimilarity : 0.055722922542269966, metaKeywordSimilarity : 0.0, metaDescriptionSimilarity : 0.0
+2016-03-18 03:27:58,364 INFO  parse.ParseSegment - Parsed (17ms):http://www.jasonsguns.com/
+2016-03-18 03:27:58,713 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/ to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Firearms to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Knives to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Optics to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Ammo to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Reload to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Wanted to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Trade to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Access to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Fishing to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Hunting to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/ to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Create.aspx?code=Firearms to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Create.aspx?code=Knives to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Create.aspx?code=Optics to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Create.aspx?code=Ammo to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Create.aspx?code=Reload to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Create.aspx?code=Wanted to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Create.aspx?code=Trade to 0.055722922
+2016-03-18 03:27:58,746 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Create.aspx?code=Access to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Create.aspx?code=Fishing to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Create.aspx?code=Hunting to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/ to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Default.aspx?CityCode=1 to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/ to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/ResendLinks.aspx to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/ to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Events.aspx to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Firearms to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Knives to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Optics to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Ammo to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Reload to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Wanted to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Trade to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Access to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Fishing to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Search.aspx?code=Hunting to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/Contact.aspx to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/TermsOfUse.aspx to 0.055722922
+2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel - Setting score of http://www.jasonsguns.com/PrivacyStatement.aspx to 0.055722922
+2016-03-18 03:27:59,561 INFO  parse.ParseSegment - ParseSegment: finished at 2016-03-18 03:27:59, elapsed: 00:00:02
+2016-03-18 03:28:00,807 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-03-18 03:28:01,035 INFO  crawl.CrawlDb - CrawlDb update: starting at 2016-03-18 03:28:01
+2016-03-18 03:28:01,035 INFO  crawl.CrawlDb - CrawlDb update: db: /Users/madhav/Documents/workspace/nutch/runtime/local/crawl/crawldb
+2016-03-18 03:28:01,035 INFO  crawl.CrawlDb - CrawlDb update: segments: [/Users/madhav/Documents/workspace/nutch/runtime/local/crawl/segments/20160318032747]
+2016-03-18 03:28:01,035 INFO  crawl.CrawlDb - CrawlDb update: additions allowed: true
+2016-03-18 03:28:01,035 INFO  crawl.CrawlDb - CrawlDb update: URL normalizing: false
+2016-03-18 03:28:01,035 INFO  crawl.CrawlDb - CrawlDb update: URL filtering: false
+2016-03-18 03:28:01,035 INFO  crawl.CrawlDb - CrawlDb update: 404 purging: false
+2016-03-18 03:28:01,037 INFO  crawl.CrawlDb - CrawlDb update: Merging segment data into db.
+2016-03-18 03:28:01,601 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1443363377/.staging/job_local1443363377_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:28:01,607 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1443363377/.staging/job_local1443363377_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:28:01,747 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1443363377_0001/job_local1443363377_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:28:01,751 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1443363377_0001/job_local1443363377_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:28:02,858 INFO  cosine.DocumentVector - Populating stopwords from stopwords.txt
+2016-03-18 03:28:02,989 INFO  cosine.CosineSimilarityModel - Creating DocVector from path - goldstandard.txt
+2016-03-18 03:28:02,992 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.AdaptiveFetchSchedule
+2016-03-18 03:28:02,993 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-03-18 03:28:02,993 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-03-18 03:28:03,058 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.AdaptiveFetchSchedule
+2016-03-18 03:28:03,058 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-03-18 03:28:03,058 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-03-18 03:28:03,790 INFO  crawl.CrawlDb - CrawlDb update: finished at 2016-03-18 03:28:03, elapsed: 00:00:02
+2016-03-18 03:28:05,256 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-03-18 03:28:05,461 INFO  crawl.LinkDb - LinkDb: starting at 2016-03-18 03:28:05
+2016-03-18 03:28:05,461 INFO  crawl.LinkDb - LinkDb: linkdb: /Users/madhav/Documents/workspace/nutch/runtime/local/crawl/linkdb
+2016-03-18 03:28:05,461 INFO  crawl.LinkDb - LinkDb: URL normalize: true
+2016-03-18 03:28:05,461 INFO  crawl.LinkDb - LinkDb: URL filter: true
+2016-03-18 03:28:05,461 INFO  crawl.LinkDb - LinkDb: adding segment: /Users/madhav/Documents/workspace/nutch/runtime/local/crawl/segments/20160318032747
+2016-03-18 03:28:05,967 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1514224683/.staging/job_local1514224683_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:28:05,973 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1514224683/.staging/job_local1514224683_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:28:06,120 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1514224683_0001/job_local1514224683_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:28:06,126 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1514224683_0001/job_local1514224683_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:28:06,580 INFO  regex.RegexURLNormalizer - can't find rules for scope 'linkdb', using default
+2016-03-18 03:28:07,167 INFO  crawl.LinkDb - LinkDb: finished at 2016-03-18 03:28:07, elapsed: 00:00:01
+2016-03-18 03:28:08,329 INFO  crawl.DeduplicationJob - DeduplicationJob: starting at 2016-03-18 03:28:08
+2016-03-18 03:28:08,593 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-03-18 03:28:09,215 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1274236371/.staging/job_local1274236371_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:28:09,222 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1274236371/.staging/job_local1274236371_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:28:09,386 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1274236371_0001/job_local1274236371_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:28:09,391 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1274236371_0001/job_local1274236371_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:28:10,437 INFO  crawl.DeduplicationJob - Deduplication: 0 documents marked as duplicates
+2016-03-18 03:28:10,437 INFO  crawl.DeduplicationJob - Deduplication: Updating status of duplicate urls into crawl db.
+2016-03-18 03:28:10,632 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1298647022/.staging/job_local1298647022_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:28:10,633 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav1298647022/.staging/job_local1298647022_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:28:10,687 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1298647022_0002/job_local1298647022_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:28:10,689 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local1298647022_0002/job_local1298647022_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:28:11,735 INFO  crawl.DeduplicationJob - Deduplication finished at 2016-03-18 03:28:11, elapsed: 00:00:03
+2016-03-18 03:28:12,911 INFO  indexer.IndexingJob - Indexer: starting at 2016-03-18 03:28:12
+2016-03-18 03:28:12,987 INFO  indexer.IndexingJob - Indexer: deleting gone documents: false
+2016-03-18 03:28:12,987 INFO  indexer.IndexingJob - Indexer: URL filtering: false
+2016-03-18 03:28:12,987 INFO  indexer.IndexingJob - Indexer: URL normalizing: false
+2016-03-18 03:28:13,244 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.solr.SolrIndexWriter
+2016-03-18 03:28:13,244 INFO  indexer.IndexingJob - Active IndexWriters :
+SolrIndexWriter
+	solr.server.type : Type of SolrServer to communicate with (default 'http' however options include 'cloud', 'lb' and 'concurrent')
+	solr.server.url : URL of the Solr instance (mandatory)
+	solr.zookeeper.url : URL of the Zookeeper URL (mandatory if 'cloud' value for solr.server.type)
+	solr.loadbalance.urls : Comma-separated string of Solr server strings to be used (madatory if 'lb' value for solr.server.type)
+	solr.mapping.file : name of the mapping file for fields (default solrindex-mapping.xml)
+	solr.commit.size : buffer size when sending to Solr (default 1000)
+	solr.auth : use authentication (default false)
+	solr.auth.username : username for authentication
+	solr.auth.password : password for authentication
+
+
+2016-03-18 03:28:13,247 INFO  indexer.IndexerMapReduce - IndexerMapReduce: crawldb: /Users/madhav/Documents/workspace/nutch/runtime/local/crawl/crawldb
+2016-03-18 03:28:13,247 INFO  indexer.IndexerMapReduce - IndexerMapReduce: linkdb: /Users/madhav/Documents/workspace/nutch/runtime/local/crawl/linkdb
+2016-03-18 03:28:13,247 INFO  indexer.IndexerMapReduce - IndexerMapReduces: adding segment: /Users/madhav/Documents/workspace/nutch/runtime/local/crawl/segments/20160318032747
+2016-03-18 03:28:13,385 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-03-18 03:28:14,120 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav2106351238/.staging/job_local2106351238_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:28:14,123 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/staging/madhav2106351238/.staging/job_local2106351238_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:28:14,253 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local2106351238_0001/job_local2106351238_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2016-03-18 03:28:14,257 WARN  conf.Configuration - file:/tmp/hadoop-madhav/mapred/local/localRunner/madhav/job_local2106351238_0001/job_local2106351238_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2016-03-18 03:28:14,597 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2016-03-18 03:28:14,615 INFO  cosine.DocumentVector - Populating stopwords from stopwords.txt
+2016-03-18 03:28:14,781 INFO  cosine.CosineSimilarityModel - Creating DocVector from path - goldstandard.txt
+2016-03-18 03:28:15,643 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.solr.SolrIndexWriter
+2016-03-18 03:28:15,948 INFO  solr.SolrMappingReader - source: content dest: content
+2016-03-18 03:28:15,948 INFO  solr.SolrMappingReader - source: title dest: title
+2016-03-18 03:28:15,949 INFO  solr.SolrMappingReader - source: host dest: host
+2016-03-18 03:28:15,949 INFO  solr.SolrMappingReader - source: segment dest: segment
+2016-03-18 03:28:15,949 INFO  solr.SolrMappingReader - source: boost dest: boost
+2016-03-18 03:28:15,949 INFO  solr.SolrMappingReader - source: digest dest: digest
+2016-03-18 03:28:15,949 INFO  solr.SolrMappingReader - source: tstamp dest: tstamp
+2016-03-18 03:28:15,969 INFO  solr.SolrIndexWriter - Indexing 1 documents
+2016-03-18 03:28:16,184 INFO  solr.SolrIndexWriter - Indexing 1 documents
+2016-03-18 03:28:16,207 WARN  mapred.LocalJobRunner - job_local2106351238_0001
+java.lang.Exception: org.apache.solr.client.solrj.impl.HttpSolrServer$RemoteSolrException: Expected mime type application/octet-stream but got text/html. <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /solr/nutch_core/update. Reason:
+<pre>    Not Found</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: org.apache.solr.client.solrj.impl.HttpSolrServer$RemoteSolrException: Expected mime type application/octet-stream but got text/html. <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Error 404 Not Found</title>
+</head>
+<body><h2>HTTP ERROR 404</h2>
+<p>Problem accessing /solr/nutch_core/update. Reason:
+<pre>    Not Found</pre></p><hr><i><small>Powered by Jetty://</small></i><hr/>
+
+</body>
+</html>
+
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.executeMethod(HttpSolrServer.java:512)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:210)
+	at org.apache.solr.client.solrj.impl.HttpSolrServer.request(HttpSolrServer.java:206)
+	at org.apache.solr.client.solrj.request.AbstractUpdateRequest.process(AbstractUpdateRequest.java:124)
+	at org.apache.nutch.indexwriter.solr.SolrIndexWriter.close(SolrIndexWriter.java:153)
+	at org.apache.nutch.indexer.IndexWriters.close(IndexWriters.java:115)
+	at org.apache.nutch.indexer.IndexerOutputFormat$1.close(IndexerOutputFormat.java:44)
+	at org.apache.hadoop.mapred.ReduceTask$OldTrackingRecordWriter.close(ReduceTask.java:502)
+	at org.apache.hadoop.mapred.ReduceTask.runOldReducer(ReduceTask.java:456)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:392)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-03-18 03:28:16,335 ERROR indexer.IndexingJob - Indexer: java.io.IOException: Job failed!
+	at org.apache.hadoop.mapred.JobClient.runJob(JobClient.java:836)
+	at org.apache.nutch.indexer.IndexingJob.index(IndexingJob.java:145)
+	at org.apache.nutch.indexer.IndexingJob.run(IndexingJob.java:222)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:70)
+	at org.apache.nutch.indexer.IndexingJob.main(IndexingJob.java:231)
+
