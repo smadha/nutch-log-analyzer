@@ -9,14 +9,47 @@ import org.apache.logging.log4j.Logger;
 public class PatternExtractor {
 	private static final Logger logger = LogManager.getLogger(PatternExtractor.class);
 
-	public String extractAllPatterns(PatternNutch pattern, String logLines) {
-		Matcher matcher = pattern.getPattern().matcher(logLines);
+	/**
+	 * Extracts regex pattern as provided in patternNutch from logLine<br/>
+	 * 
+	 * @param patternNutch
+	 * @param logLine
+	 * @return pattern if present in logLine, else a empty String
+	 */
+	public String extractPattern(PatternNutch patternNutch, final String logLine) {
+		Matcher matcher = patternNutch.getPattern().matcher(logLine);
 		String match = "";
 		if (matcher.find()) {
 			match = matcher.group(0);
-			logger.debug("Found value: " + match);
-			logger.debug(logLines);
+			logger.debug("{} found : {} ", patternNutch, match);
+			logger.debug(logLine);
 		}
 		return match;
+	}
+
+	/**
+	 * Applies multiple regex one after other to a logLine. <br/>
+	 * Second regex is applied to results of first and so on.. <br/>
+	 * 
+	 * @param patternPipeline
+	 * @param logLine
+	 * @return final pattern if found , else a empty String if match is empty for any Pattern
+	 */
+	public String extractPatternPipe(List<PatternNutch> patternPipeline, final String logLine) {
+		String pipedInput = logLine;
+
+		for (PatternNutch patternNutch : patternPipeline) {
+			Matcher matcher = patternNutch.getPattern().matcher(pipedInput);
+			if (matcher.find()) {
+				pipedInput = matcher.group(0);
+
+				logger.debug("{} found : {} ", patternNutch, pipedInput);
+				logger.debug(logLine);
+			} else {
+				pipedInput = "";
+				break;
+			}
+		}
+		return pipedInput;
 	}
 }
