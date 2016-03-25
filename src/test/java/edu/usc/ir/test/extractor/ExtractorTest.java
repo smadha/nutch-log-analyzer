@@ -28,7 +28,6 @@ public class ExtractorTest {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 	}
 
 	@Test
@@ -69,12 +68,24 @@ public class ExtractorTest {
 			}
 		}
 		System.out.println(matchSet);
-		
+
 		Assert.assertTrue(matchSet.contains("http://www.jasonsguns.com/"));
 		Assert.assertEquals(45, count);
 		Assert.assertEquals(1, matchSet.size());
-		
-		
+
 	}
 
+	@Test
+	public void testExtractAllPatternPipe() {
+		List<PatternNutch> pipe = new ArrayList<>();
+		pipe.add(PatternNutch.URL);
+		pipe.add(PatternNutch.URL_HOSTNAME);
+
+		List<String> listOfMatch = new PatternExtractor().extractAllPatternPipe(pipe, "2016-03-18 03:27:58,747 INFO  cosine.CosineSimilarityModel "
+				+ "- Setting score of http://www.jasonsguns.com/Search.aspx?code=Hunting to 0.055722922");
+		Assert.assertEquals(2, listOfMatch.size());
+		Assert.assertEquals("http://www.jasonsguns.com/Search.aspx?code=Hunting", listOfMatch.get(0));
+		Assert.assertEquals("http://www.jasonsguns.com/", listOfMatch.get(1));
+
+	}
 }
