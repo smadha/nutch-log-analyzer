@@ -7,6 +7,9 @@ import java.util.regex.Matcher;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * Pattern Extracting Strategies given regex from log file
+ */
 public class PatternExtractor {
 	private static final Logger LOGGER = LogManager.getLogger(PatternExtractor.class);
 
@@ -34,7 +37,7 @@ public class PatternExtractor {
 	 * 
 	 * @param patternPipeline
 	 * @param logLine
-	 * @return final pattern if found , else a empty String if match is empty for any Pattern
+	 * @return final pattern if found , else an empty String if match is empty for any Pattern
 	 */
 	public String extractPatternPipe(List<PatternNutch> patternPipeline, final String logLine) {
 		String pipedInput = logLine;
@@ -60,7 +63,7 @@ public class PatternExtractor {
 	 * 
 	 * @param patternPipeline
 	 * @param logLine
-	 * @return final pattern if found , else a empty String if match is empty for any Pattern
+	 * @return All pattern found in sequence of regex provided, else an empty List
 	 */
 	public List<String> extractAllPatternPipe(List<PatternNutch> patternPipeline, final String logLine) {
 		String pipedInput = logLine;

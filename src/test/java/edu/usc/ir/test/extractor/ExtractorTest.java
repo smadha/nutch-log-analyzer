@@ -15,7 +15,9 @@ import org.junit.Test;
 
 import edu.usc.ir.nutchanalyzer.extractor.PatternExtractor;
 import edu.usc.ir.nutchanalyzer.extractor.PatternNutch;
-
+/**
+ * Test cases for {@link edu.usc.ir.nutchanalyzer.extractor.PatternExtractor }
+ */
 public class ExtractorTest {
 
 	private List<String> logFile;

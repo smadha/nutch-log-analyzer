@@ -18,9 +18,18 @@ import org.apache.logging.log4j.Logger;
 import edu.usc.ir.nutchanalyzer.extractor.PatternExtractor;
 import edu.usc.ir.nutchanalyzer.extractor.PatternNutch;
 
+/**
+ * Analytical functions over hadoop.log 
+ */
 public class NutchURLAnalyzer {
 	private static final Logger LOGGER = LogManager.getLogger(NutchURLAnalyzer.class);
 
+	/**
+	 * Tries to capture crawl dimension with respect to URLs and host names crawled
+	 * @param logFilePath Path of hadoop.log
+	 * @return A map of hostName to set of URLs present in log file
+	 * @throws IOException If file is not found at logFilePath
+	 */
 	public Map<String, Set<String>> computeURLStats(String logFilePath) throws IOException {
 
 		List<PatternNutch> pipe = new ArrayList<>();
